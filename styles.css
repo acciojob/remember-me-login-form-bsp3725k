@@ -1,1 +1,15 @@
-/*  your css code here. If applicable */
+  #submit {
+            background-color: red;
+            color: white;
+            border-radius: 10px;
+            width: 80px;
+            height: 40px;
+            font-size: larger;
+        }
+        * {
+            background-color: black;
+            color: white;
+        }
+        h1 {
+            color: lightskyblue;
+        }
