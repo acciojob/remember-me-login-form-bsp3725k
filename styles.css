@@ -1,15 +1,29 @@
-  #submit {
-            background-color: red;
-            color: white;
-            border-radius: 10px;
-            width: 80px;
-            height: 40px;
-            font-size: larger;
-        }
-        * {
-            background-color: lightblue;
-            color: white;
-        }
-        h1 {
-            color: black;
-        }
+body{
+	 margin: 0;
+    height: 100vh; /* Full height of the viewport */
+    display: grid;
+    place-items: center; /* Centers the container both vertically and horizontally */
+    background-color: bisque; /* Background color for the body */
+}
+.container{
+	place-items: center;
+	background-color:lightskyblue;
+	width:500px;
+	height:300px;
+	border-radius:10px;
+}
+
+#username{
+	margin:10px;
+}
+#password{
+	margin:10px;
+}
+
+#submit{
+	margin:10px;
+	margin-left:80px;
+	width:90px;
+	height:30px;
+	border-radius:10px;
+}
